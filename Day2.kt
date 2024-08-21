@@ -54,7 +54,7 @@ fun main()
     val numbers = arrayOf(1, 2, 3, 4, 5)
     val words: Array<String> = arrayOf("Kotlin")
     val squares = Array(5){ i -> i * i}
-    print(squares)
+    // print(squares)
 }
 
 --------------------------
