@@ -46,10 +46,57 @@ fun sum(a : Int, b : Int) : Int
 -------------------------------------
 
 //Create a function to convert temperature from Celsius to Fahrenheit and vice vera
-//Factorial, Fibonacci
+fun toFahrenheit(celsius: Double): Double {
+    return ((celsius * 9/5) + 32)
+}
 
+fun toCelsius(fahrenheit: Double): Double {
+    return ((fahrenheit - 32) * 5/9)
+}
 
----------------------------------------
+fun main() {
+    val celsius = 25.0
+    val fahrenheit = toFahrenheit(celsius)
+    println("$celsius C is $fahrenheit F")
+
+    val fahrenheitValue = 77.0
+    val celsiusValue = toCelsius(fahrenheitValue)
+    println("$fahrenheitValue F is $celsiusValue C")
+}
+
+--------------------------------------------------
+
+//Fibonacci
+fun fibonacci(n: Int): Int {
+    if (n <= 1)
+        return 1
+    else {
+        return fibonacci(n - 1) + fibonacci(n - 2)
+    }
+}
+
+fun main() {
+    val n = 10
+    println("Fibonacci of $n is: ${fibonacci(n)}")
+}
+
+-------------------------------------------------
+//Factorial
+fun factorial(n: Int): Int {
+    if (n <= 1){
+        return 1
+    }
+    else{
+        return n * factorial(n - 1)
+    }
+}
+
+fun main() {
+    val n = 5
+    println("Factorial of $n is: ${factorial(n)}")
+}
+    
+--------------------------------------------------
 
 //class
 class Student
