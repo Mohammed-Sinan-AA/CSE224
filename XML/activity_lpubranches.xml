@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="75dp"
+    android:background="@drawable/img"
+    android:clipToPadding="true"
+    android:columnCount="3"
+    android:padding="5dp"
+    android:rowCount="3">
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="125dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="100dp"
+        android:foregroundGravity="center"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/img_19"
+        android:contentDescription="Computer Science and Engineering"/>
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="125dp"
+        android:layout_height="150dp"
+        android:layout_gravity="fill"
+        android:layout_marginBottom="100dp"
+        android:foregroundGravity="center"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/img_21"
+        android:contentDescription="MITTAL School of Business"/>
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="125dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="100dp"
+        android:foregroundGravity="center"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/img_22"
+        android:contentDescription="School of Law"/>
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="125dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="100dp"
+        android:foregroundGravity="center"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/img_23"
+        android:contentDescription="Physical Education"/>
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="125dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="100dp"
+        android:foregroundGravity="center"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/img_24"
+        android:contentDescription="Electronics and Electrical Engineering"/>
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="125dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="100dp"
+        android:foregroundGravity="center"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/img_25"
+        android:contentDescription="Design III - Multimedia and Animation"/>
+
+    <ImageButton
+        android:id="@+id/imageButton14"
+        android:layout_width="125dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="100dp"
+        android:foregroundGravity="center"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/img_26"
+        android:contentDescription="Hotel Management and Tourism"/>
+
+    <ImageButton
+        android:id="@+id/imageButton15"
+        android:layout_width="125dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="100dp"
+        android:foregroundGravity="center"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/img_27"
+        android:contentDescription="Design I - Fashion"/>
+
+    <ImageButton
+        android:id="@+id/imageButton16"
+        android:layout_width="125dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="100dp"
+        android:foregroundGravity="center"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/img_28"
+        android:contentDescription="Mechanical Engineering"/>
+
+</GridLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foregroundTintMode="multiply"
+    android:orientation="vertical">
+
+  <TextView
+      android:id="@+id/textView4"
+      android:layout_width="match_parent"
+      android:layout_height="35dp"
+      android:background="@android:drawable/button_onoff_indicator_on"
+      android:gravity="center"
+      android:text="Select your Pizza Size"
+      android:textScaleX="2" />
+
+  <RadioGroup
+      android:id="@+id/radioGroup"
+      android:layout_width="match_parent"
+      android:layout_height="137dp">
+
+    <RadioButton
+        android:id="@+id/radioButton9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Small" />
+
+    <RadioButton
+        android:id="@+id/radioButton10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Medium" />
+
+    <RadioButton
+        android:id="@+id/radioButton12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Large" />
+  </RadioGroup>
+
+  <TextView
+      android:id="@+id/textView"
+      android:layout_width="match_parent"
+      android:layout_height="35dp"
+      android:background="@android:drawable/button_onoff_indicator_on"
+      android:backgroundTintMode="multiply"
+      android:gravity="center"
+      android:text="Select your Pizza"
+      android:textScaleX="2" />
+
+  <RadioGroup
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+    <RadioButton
+        android:id="@+id/radioButton6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chicago Style"/>
+
+    <RadioButton
+        android:id="@+id/radioButton5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Brick Oven Pizza" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="California Pizza" />
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Italian Pizza" />
+
+  </RadioGroup>
+
+  <TextView
+      android:id="@+id/textView2"
+      android:layout_width="match_parent"
+      android:layout_height="35dp"
+      android:background="@android:drawable/button_onoff_indicator_on"
+      android:gravity="center"
+      android:text="Select your Pizza toppings"
+      android:textScaleX="2" />
+
+  <CheckBox
+      android:id="@+id/checkBox"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Pepperoni" />
+
+  <CheckBox
+      android:id="@+id/checkBox2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Mushroom" />
+
+  <CheckBox
+      android:id="@+id/checkBox3"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Extra Cheese" />
+
+  <CheckBox
+      android:id="@+id/checkBox7"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Green Pepper" />
+
+</LinearLayout>

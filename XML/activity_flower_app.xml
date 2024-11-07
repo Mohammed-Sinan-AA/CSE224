@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_16"
+    android:rowCount="3"
+    android:columnCount="2">
+
+<!--    <TextView-->
+<!--        android:id="@+id/Heading"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="75dp"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:background="@android:drawable/button_onoff_indicator_off"-->
+<!--        android:gravity="center"-->
+<!--        android:text="Select your Flower Type" />-->
+
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="1"
+        app:srcCompat="@drawable/rose" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="1"
+        app:srcCompat="@drawable/img_17" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="0"
+        app:srcCompat="@drawable/img_18" />
+</GridLayout>
